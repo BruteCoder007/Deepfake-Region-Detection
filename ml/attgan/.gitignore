@@ -1,4 +1,4 @@
 *.pyc
 __pycache__/
 /data/
-/output/
+/output/sample_validation_384x_hd.jpg
