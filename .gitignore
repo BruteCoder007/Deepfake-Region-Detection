@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env/
+*.egg
+
+# Model weights (large binary files — keep locally under models/)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+models/*.pth
+models/*.pt
+
+# Uploads & runtime artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/images/*
+!backend/images/.gitkeep
+frontend/src/uploads/*
+!frontend/src/uploads/.gitkeep
+*.log
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build output
+frontend/build/
+dist/
+coverage/
+
+# Legacy / local-only folders (kept on disk, not in repo)
+FinalContents/
+AttGAN-Tensorflow-master/
+encoder-decoder/
+original images/
+
+# Personal / sensitive
+**/davis election id card.pdf
+**/*id card*
+**/*ID card*
+
+# Temp scratch files
+tempCodeRunnerFile.*
+*.tmp
